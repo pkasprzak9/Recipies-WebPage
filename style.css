@@ -1,0 +1,42 @@
+/* style.css */
+
+body {
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.links,
+#lasagna_link:link ,
+#beef_link:link ,
+#padthai_link:link {
+    color: #009a22;
+    font-size: 25px;
+    font-family: 'Matrix', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 200px;
+}
+
+#lasagna_link:visited ,
+#beef_link:visited ,
+#padthai_link:visited {
+    text-decoration: none;
+    color: #009a22;
+}
+
+#lasagna_link:hover ,
+#beef_link:hover ,
+#padthai_link:hover {
+    text-decoration: none;
+    color: #00ff2b;
+}
+
+#lasagna_link:active ,
+#beef_link:active ,
+#padthai_link:active {
+    text-decoration: none;
+}

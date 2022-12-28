@@ -1,0 +1,56 @@
+/* style.css */
+
+
+/* main page */
+body {
+    background-color: #F9FBFF;
+}
+
+h1 {
+    text-align: center;
+    color: #880808;
+    font-size: 75px;
+    font-family: 'Copperplate', 'Monaco', sans-serif;
+}
+
+.links {
+    color: #880808;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+#link1,
+#link2,
+#link3  {
+    text-decoration: none;
+}
+
+#link1:visited,
+#link2:visited,
+#link3:visited {
+    color: #880808;
+    text-decoration: none;
+}
+
+#link1:hover,
+#link2:hover,
+#link3:hover  {
+    color: black;
+    text-decoration: none;
+}
+
+#link1:active,
+#link2:active,
+#link3:active  {
+    text-decoration: none;
+}
+
+#image {
+    height: auto;
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

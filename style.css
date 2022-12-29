@@ -9,7 +9,7 @@ ul {
 }
 
 
-.links,
+/* .links,
 #lasagna_link:link ,
 #beef_link:link ,
 #padthai_link:link {
@@ -39,4 +39,107 @@ ul {
 #beef_link:active ,
 #padthai_link:active {
     text-decoration: none;
+} */
+
+#matrix
+{
+    color: #009a22;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+
+    text-shadow:
+    0.05em 0 0 rgb(255, 0, 0, .75),
+    -0.025em -0.05em 0 rgb(0, 255, 0, .75),
+    0.025em 0.05em 0 rgb(0, 0, 255, .75);
+
+    animation: glitch 500ms infinite;
+}
+
+.links,
+/* link */
+#lasagna_link:link,
+#beef_link:link,
+#padthai_link:link,
+/* visited link */
+#lasagna_link:visited,
+#beef_link:visited,
+#padthai_link:visited,
+/* hover link */
+#lasagna_link:hover,
+#beef_link:hover,
+#padthai_link:hover,
+/* active link */
+#lasagna_link:active,
+#beef_link:active,
+#padthai_link:active   
+ {
+    color: #009a22;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 120px;
+
+    text-shadow:
+    0.05em 0 0 rgb(255, 0, 0, .75),
+    -0.025em -0.05em 0 rgb(0, 255, 0, .75),
+    0.025em 0.05em 0 rgb(0, 0, 255, .75);
+
+    animation: glitch 500ms infinite;
+}
+
+#lasagna_link:hover ,
+#beef_link:hover ,
+#padthai_link:hover {
+    text-decoration: none;
+    color: #00ff2b;
+}
+
+
+
+@keyframes glitch {
+    0%{
+        text-shadow:
+        0.05em 0 0 rgb(255, 0, 0, .75),
+        -0.05em -0.025em 0 rgb(0, 255, 0, .75),
+        -0.025em 0.05em 0 rgb(0, 0, 255, .75);
+    }
+    14%{
+        text-shadow:
+        0.05em 0 0 rgb(255, 0, 0, .75),
+        -0.05em -0.025em 0 rgb(0, 255, 0, .75),
+        -0.025em 0.05em 0 rgb(0, 0, 255, .75);
+    }
+    15%{
+        text-shadow:
+    -0.05em -0.025em 0 rgb(255, 0, 0, .75),
+    0.025em 0.025em 0 rgb(0, 255, 0, .75),
+    -0.05em -0.05em 0 rgb(0, 0, 255, .75);
+    }
+    49%{
+        text-shadow:
+    -0.05em -0.025em 0 rgb(255, 0, 0, .75),
+    0.025em 0.025em 0 rgb(0, 255, 0, .75),
+    -0.05em -0.05em 0 rgb(0, 0, 255, .75);
+    }
+    50%{
+        text-shadow:
+    0.025em 0.05em 0 rgb(255, 0, 0, .75),
+    -0.05em 0 0 rgb(0, 255, 0, .75),
+    0 -0.05em 0 rgb(0, 0, 255, .75);
+    }
+    99%{
+        text-shadow:
+    0.025em 0.05em 0 rgb(255, 0, 0, .75),
+    -0.05em 0 0 rgb(0, 255, 0, .75),
+    0 -0.05em 0 rgb(0, 0, 255, .75);
+    }
+    100%{
+        text-shadow:
+    -0.025em 0 0 rgb(255, 0, 0, .75),
+    -0.025em -0.025em 0 rgb(0, 255, 0, .75),
+    -0.025em -0.05em 0 rgb(0, 0, 255, .75);
+    }
 }

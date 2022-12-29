@@ -1,5 +1,7 @@
 /* style.css */
 
+/* main page */
+
 body {
     background-color: black;
 }
@@ -143,3 +145,5 @@ ul {
     -0.025em -0.05em 0 rgb(0, 0, 255, .75);
     }
 }
+
+/* recipes pages */

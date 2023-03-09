@@ -1,3 +1,4 @@
 # odin-recipes
-My first project made during my journey with The Odin Projects.
-It may not look pretty now, but I don't care.
+This is my first project while learning web development.
+It contains three simple (but very tasty) recipies that will make
+you look good if your girl invite her parents for a dinner.
